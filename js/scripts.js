@@ -1,22 +1,22 @@
 // My Scripts
-
 $(function() {
   $.simpleWeather({
     location: 'Spokane, WA',
     unit: 'f',
     success: function(weather) {
-     $('.city').text(weather.city);
-        $('.temp').text(weather.temp);
-        $('.cond-code').text(weather.code);
-        //console.log(weather);
-      }
-
-      html += '<p>weather.description: '+weather.description+'</p>';
-
-      $("#weather").html(html);
+      
+//console.log(weather);
+        
+      $('.city').text(weather.city);
+      $('.temp').text(weather.temp);
+      $('.cond-code').text(weather.code);
+      
+    
     },
     error: function(error) {
-      console.log('No Weather Error');
+      
+      console.log('Error No Weather');
+      
     }
   });
 });
