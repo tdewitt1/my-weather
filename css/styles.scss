@@ -1,0 +1,25 @@
+@import 'semantic';
+//@import 'add-to-homescreen';
+@import 'weather';
+
+/* My Styles */
+
+#cheney i {
+    color: aquamarine;
+    font-size: 6em;
+}
+
+#spokane i {
+color: goldenrod;
+font-size: 6em;
+}
+
+#d1 i {
+color: aquamarine;
+font-size: 6em;
+}
+
+.bg-1 {
+background: teal;
+transition: background 5s 1s;
+}
