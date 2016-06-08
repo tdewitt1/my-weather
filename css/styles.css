@@ -33315,12 +33315,12 @@ i {
 }
 
 #spokane i {
-  color: aqua;
+  color: goldenrod;
   font-size: 6em;
 }
 
 #d2 i {
-  color: aqua;
+  color: goldenrod;
   font-size: 6em;
 }
 
@@ -33329,24 +33329,7 @@ i {
   font-size: 6em;
 }
 
-i {
-  font-size: 6em;
-  color: dodgerblue;
-}
-
-div.ui.bottom.attached.active.tab.segment {
-  background-color: black;
-  border: none;
-}
-
-body {
-  background-color: black;
-}
-
-h3 {
-  color: floralwhite;
-}
-
-container {
-  color: floralwhite;
+.bg-1 {
+  background: teal;
+  transition: background 5s 1s;
 }

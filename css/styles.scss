@@ -1,3 +1,4 @@
+
 @import 'semantic';
 //@import 'add-to-homescreen';
 @import 'weather';
@@ -10,16 +11,37 @@
 }
 
 #spokane i {
-color: goldenrod;
+color: aqua;
 font-size: 6em;
 }
 
+#d2 i {
+    color: aqua;
+    font-size: 6em;
+}
 #d1 i {
 color: aquamarine;
 font-size: 6em;
 }
-
-.bg-1 {
-background: teal;
-transition: background 5s 1s;
+i {
+    font-size:6em;
+    color: dodgerblue;
 }
+
+div.ui.bottom.attached.active.tab.segment {
+    background-color: black;
+    border: none;
+}
+
+body{
+    background-color: black;
+}
+
+h3 {
+    color: floralwhite;
+}
+
+container {
+    color: floralwhite;
+}
+

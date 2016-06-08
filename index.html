@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -131,11 +132,10 @@
     </style>	
 
 </head>
-
-<body>
-
-    <!--	Tab Nav-->
-    <div class="ui top attached tabular menu">
+<body class="" id="bod">
+	
+ <!--	Tab Nav-->
+    <div class="ui top attached tabular menu inverted segment">
         <a class="active item" data-tab="first">Cheney</a>
         <a class="item" data-tab="second">Spokane</a>
         <a class="item" data-tab="third">Find me!</a>
@@ -146,19 +146,19 @@
     <div class="ui bottom attached active tab segment" data-tab="first">
         <h3>
       <ul class="ui list" id="cheney">
-          <li class="item city">City</li>
-          <li class="item temp">00</li>
-          <li class="item icon">
+          <container class="item city">City</container>
+          <container class="item temp">00</container>
+          <container class="item icon">
               <i class=""> </i>
-          </li>
+          </container>
           
       </ul>
   </h3>
    <h3>Forecast</h3>
    <ul class="ui list" id="d1">
-      <li class="day">Day</li>
-       <li class="item temp">00</li>
-       <li class="item icon">    <i class=""> </i></li>
+      <container class="day">Day</container>
+       <container class="item temp">00</container>
+       <container class="item icon">    <i class=""> </i></container>
          
    </ul>
     </div>
@@ -166,47 +166,47 @@
     <div class="ui bottom attached tab segment" data-tab="second">
         <h3>
       <ul class="ui list" id="spokane">
-          <li class="item city">City</li>
-          <li class="item temp">00</li>
-          <li class="item icon">
+          <container class="item city">City</container>
+          <container class="item temp">00</container>
+          <container class="item icon">
               <i class=""> </i>
-          </li>
+          </container>
           
       </ul>
   </h3>
    <h3>Forecast</h3>
    <ul class="ui list" id="d2">
-      <li class="day">Day</li>
-       <li class="item temp">00</li>
-       <li class="item icon">    <i class=""> </i></li>
+      <container class="day">Day</container>
+       <container class="item temp">00</container>
+       <container class="item icon">    <i class=""> </i></container>
          
    </ul>
     </div>
     <div class="geo ui bottom attached tab segment" data-tab="third">
-        <button class="geo ui red button">Locate</button>
+        <button class="geo ui blue button">Locate</button>
         <h3>
       <ul class="ui list" id="geo">
-          <li class="item city">City</li>
-          <li class="item temp">00</li>
-          <li class="item icon">
+          <container class="item city">City</container>
+          <container class="item temp">00</container>
+          <container class="item icon">
               <i class=""> </i>
-          </li>
+          </container>
           
       </ul>
   </h3>
    <h3>Forecast</h3>
    <ul class="ui list" id="d3">
-      <li class="day">Day</li>
-       <li class="item temp">00</li>
-       <li class="item icon">    <i class=""> </i></li>
+      <container class="day">Day</container>
+       <container class="item temp">00</container>
+       <container class="item icon">    <i class=""> </i></container>
          
    </ul>
     </div>
-
-
-    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js-min/jquery-2.2.2-min.js"><\/script>')</script>
 	<script src="js-min/scripts.min.js"></script>
 </body>
-
 </html>
+<body>
+
+
